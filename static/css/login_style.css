@@ -1,0 +1,12 @@
+.login{
+	opacity: 0.4;
+	margin: auto auto;
+	margin-top: 100px;
+	width: 60%;
+}
+.login:hover{
+	opacity: 0.8;
+}
+button{
+	margin: auto auto;
+}

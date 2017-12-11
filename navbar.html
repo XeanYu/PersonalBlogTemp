@@ -1,0 +1,44 @@
+<head>
+	<link rel="stylesheet" href="static/base/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="static/css/style.css" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<style type="text/css">
+	.logo{
+		border-radius: 5px;
+		width: 57px;
+	}
+	a{
+		font-size: 17px;
+	}
+	</style>
+</head>
+<nav class="navbar navbar-inverse" style="opacity: 0.8;">
+  	<div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+		<a href="#" class="navbar-brand">XeanYu's Blog</a>
+	</div>
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Blog <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Music </a></li>
+      </ul>
+      
+
+     	<ul class="nav navbar-nav navbar-right">
+     		<!--这里的Login后期要进行模板修改-->
+     		<li><a href="#">Login</a></li>
+     		<li><a href="#">Register</a></li>
+     	</ul>
+<!--搜索-->
+     <form class="navbar-form navbar-right" method="post">
+       <div class="form-group">
+         <input type="text" class="form-control" placeholder="Search" name='srarch'>
+       </div>
+       <button type="submit" class="btn btn-success">搜索</button>
+     </form>
+   	</div>
+	</div>
+</nav>

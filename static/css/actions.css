@@ -1,0 +1,17 @@
+.post-meta{
+	color: #999;
+	line-height: 4;
+}
+.makedown{
+	font-family: Lato,"PingFang SC","Microsoft YaHei",sans-serif;
+    font-size: 14px;
+    line-height: 2.12;
+    color: #555;
+}
+article{
+	margin: auto;
+    width: 65%;
+}
+.title{
+	margin-top: 50px;
+}
